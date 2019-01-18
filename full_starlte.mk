@@ -11,8 +11,9 @@ $(call inherit-product, device/samsung/starlte/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := starlte
-PRODUCT_NAME := full_starlte
+PRODUCT_NAME := aosp_starlte
 PRODUCT_MODEL := SM-G960F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+ALLOW_MISSING_DEPENDENCIES := true
